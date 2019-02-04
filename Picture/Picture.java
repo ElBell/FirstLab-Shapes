@@ -36,7 +36,7 @@ public class Picture
     /**
      * Paint this picture.
      */
-    public void paint()
+    public void draw()
     {    
         sky = new Square();
         sky.moveHorizontal(-10);
