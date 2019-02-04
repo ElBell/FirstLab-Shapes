@@ -22,10 +22,11 @@ public class Circle
     public Circle()
     {
         diameter = 30;
-        xPosition = 20;
-        yPosition = 60;
+        xPosition = 0;
+        yPosition = 0;
         color = "blue";
-        isVisible = false;
+        isVisible = true;
+        this.draw();
     }
 
     /**

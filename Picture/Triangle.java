@@ -23,10 +23,11 @@ public class Triangle
     {
         height = 30;
         width = 40;
-        xPosition = 50;
-        yPosition = 15;
+        xPosition = 0;
+        yPosition = 0;
         color = "green";
-        isVisible = false;
+        isVisible = true;
+        this.draw();
     }
 
     /**
@@ -157,6 +158,7 @@ public class Triangle
         width = newWidth;
         draw();
     }
+    
 
     /**
      * Change the color. Valid colors are "red", "yellow", "blue", "green",
